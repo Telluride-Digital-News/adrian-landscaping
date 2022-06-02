@@ -1,0 +1,7 @@
+.navbar-container {
+  padding: 0 1rem;
+
+  @include desktop {
+    padding: 0 !important;
+  }
+}
