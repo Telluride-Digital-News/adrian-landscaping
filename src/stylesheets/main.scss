@@ -1,4 +1,6 @@
-@import './mixins/mixins';
-@import './layout/App.scss';
-@import './components/navbar';
-@import './components/home';
+@import
+  './mixins/mixins',
+  './layout/App.scss',
+  './components/navbar',
+  './components/home',
+  './components/services'
