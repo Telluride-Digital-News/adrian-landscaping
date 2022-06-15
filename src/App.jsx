@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import Services from './components/Services'
+import PhotoGallery from './components/Gallery'
+import Contact from './components/Contact'
 import '../src/stylesheets/main.scss'
 
 function App () {
@@ -11,6 +13,8 @@ function App () {
       <Navbar />
       <Home />
       <Services />
+      <PhotoGallery />
+      <Contact />
       <Footer />
     </div>
   )
