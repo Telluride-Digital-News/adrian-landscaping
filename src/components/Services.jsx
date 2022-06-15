@@ -24,22 +24,24 @@ const responsive = {
 }
 
 const listServices = [
-  { title: 'CARD 1', bg: Test },
-  { title: 'CARD 2', bg: Test },
-  { title: 'CARD 3', bg: Test },
-  { title: 'CARD 4', bg: Test },
-  { title: 'CARD 5', bg: Test },
-  { title: 'CARD 6', bg: Test },
-  { title: 'CARD 7', bg: Test },
-  { title: 'CARD 8', bg: Test },
-  { title: 'CARD 9', bg: Test },
-  { title: 'CARD 10', bg: Test },
-  { title: 'CARD 11', bg: Test },
-  { title: 'CARD 12', bg: Test },
-  { title: 'CARD 13', bg: Test },
-  { title: 'CARD 14', bg: Test },
-  { title: 'CARD 15', bg: Test },
-  { title: 'CARD 16', bg: Test }
+  { title: 'Landscaper', bg: Test },
+  { title: 'Concrete Masonry', bg: Test },
+  { title: 'Garden Decorating', bg: Test },
+  { title: 'Garden Design', bg: Test },
+  { title: 'Lawn Care', bg: Test },
+  { title: 'Lawn Lanscaping', bg: Test },
+  { title: 'Stone Landscaping', bg: Test },
+  { title: 'Stone Masonry', bg: Test },
+  { title: 'Tree Landscaping', bg: Test },
+  { title: 'Irritating', bg: Test },
+  { title: 'Snow Removal', bg: Test },
+  { title: 'Tree Planting', bg: Test },
+  { title: 'Tree Removal', bg: Test },
+  { title: 'Flowerbeds', bg: Test },
+  { title: 'Flagstone', bg: Test },
+  { title: 'Spring Clean up', bg: Test },
+  { title: 'Fall Clean Up', bg: Test },
+  { title: 'Hanging Baskets', bg: Test }
 ]
 
 const CardWithIcon = ({ icon = <FaArchive className='text-white' />, title, bg }) => {
@@ -72,9 +74,9 @@ const Services = () => (
         })}
       </Carousel>
     </div>
-    <div className='services__sub-services'>
+    {/* <div className='services__sub-services'>
       <h1>THIS IS A TEST</h1>
-    </div>
+    </div> */}
   </section>
 )
 
