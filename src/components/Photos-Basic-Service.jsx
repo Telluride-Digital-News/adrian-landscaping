@@ -1,4 +1,4 @@
-import Lansdcaping from '../files/images/full-landscaping.png'
+import Lansdcaping from '../files/images/full-lanscaping.png'
 import Pressure from '../files/images/pressure-treated.png'
 import Retaining from '../files/images/retaining-wall.png'
 import Snow from '../files/images/snow-removal.png'
