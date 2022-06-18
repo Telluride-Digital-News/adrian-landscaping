@@ -14,7 +14,7 @@ const PhotoGallery = () => {
   return (
     <>
       <div className={model ? 'model open' : 'model'}>
-        <img src={tempimgSrc} />
+        <img src={tempimgSrc} alt='' />
         <CloseIcon onClick={() => setModel(false)} />
       </div>
       <div className='photo-gallery-container bg-neutral-100 dark:bg-slate-800'>
@@ -23,7 +23,7 @@ const PhotoGallery = () => {
           {photos.map((item, index) => {
             return (
               <div className='photo-gallery__picture' onClick={() => getImg(item.imgSrc)} key={index}>
-                <img src={item.imgSrc} />
+                <img src={item.imgSrc} alt='' />
               </div>
             )
           })}
