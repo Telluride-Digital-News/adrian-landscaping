@@ -23,7 +23,7 @@ const PhotoGallery = () => {
           {photos.map((item, index) => {
             return (
               <div className='photo-gallery__picture' onClick={() => getImg(item.imgSrc)} key={index}>
-                <img src={item.imgSrc} />
+                <img src={item.imgSrc} alt='' />
               </div>
             )
           })}
